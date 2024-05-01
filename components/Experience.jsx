@@ -100,7 +100,7 @@ const Experience = () => {
       <div className="w-[80%] max-w-2xl mx-auto">
         <div className="text-center font-normal mb-6 tracking-normal text-sm leading-5 sm:text-base lg:text-lg ">
           That was a short information about the domain that I have previously
-          worked on. while you&apos;re at it, have a look at few chosen works
+          worked on. while you are at it, have a look at few chosen works
           that i have created using above domain.
         </div>
         <div className="flex justify-center space-x-3 md:space-x-6 lg:space-x-8 items-center  my-4">
