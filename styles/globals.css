@@ -7,28 +7,28 @@
 }
 
 *::selection {
-  @apply bg-[#00FFFF] dark:bg-[#f81ce5];
+  @apply bg-[#00FFFF] dark:bg-[#55d7f7];
 }
 
 ::-webkit-scrollbar {
   /* height: 10px; */
   /* border-radius: 1px solid #d5d5d5; */
-  @apply h-2 w-[12px] rounded-sm border-gray-100/20;
+  @apply h-2 w-[10px] rounded-sm border-gray-100/20;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  @apply bg-rose-200/20 w-20;
+  @apply bg-rose-200/20 w-10;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  @apply bg-purple-400/50 rounded-[4px];
+  @apply bg-sky-400/50 rounded-[4px];
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-purple-400;
+  @apply bg-sky-400;
 }
 
 @layer base {
@@ -110,7 +110,7 @@
   }
 
   .cirGradient {
-    background: linear-gradient(120deg, #14b8a6 10%, #a855f7 45%, #f97316 100%);
+    background: linear-gradient(120deg, #14b8a6 10%, #55d7f7 45%, #f87a21 100%);
   }
 
   .land::before {
@@ -148,8 +148,8 @@
   }
 
   .text-border {
-    text-shadow: -1px -1px 0 #6808c3, 2px -1px 0 #6808c3, -1px 2px 0 #6808c3,
-      2px 2px 0 #6808c3;
+    text-shadow: -1px -1px 0 #55d7f7, 2px -1px 0 #55d7f7, -1px 2px 0 #55d7f7,
+      2px 2px 0 #55d7f7;
   }
 
   #wrapper {

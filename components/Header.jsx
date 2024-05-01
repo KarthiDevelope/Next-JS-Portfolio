@@ -136,9 +136,9 @@ const Header = () => {
                 href={link.link}
                 onClick={() => clickHandler(`${link.name}`)}
                 className={`${router === link.link
-                    ? " text-purple-400 font-out"
+                    ? " text-sky-400 font-out"
                     : " text-gray-700 dark:text-white font-out"
-                  } hover:text-purple-500 dark:hover:text-purple-500 duration-500`}
+                  } hover:text-sky-500 dark:hover:text-sky-500 duration-500`}
               >
                 <span>
                   {link.name}
